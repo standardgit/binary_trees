@@ -3,7 +3,7 @@
 #include "binary_trees.h"
 
 /**
- * *binary_tree_node - This function takes a
+ * *binary_tree_insert_left - This function takes a
  *		binary tree and returns a pointer to it.
  * @parent: The binary tree.
  * @value: The value of the binary tree.
@@ -29,7 +29,7 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 	new_node->n = value;
 	new_node->parent = parent;
 	new_node->left = NULL;
-    new_node->right = NULL;
+	new_node->right = NULL;
 
 	if (parent->left != NULL)
 	{
