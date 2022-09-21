@@ -3,8 +3,8 @@
 #include "binary_trees.h"
 
 /**
- * *binary_tree_node - This function takes a binary tree and returns a pointer to it.
- *	
+ * *binary_tree_node - This function takes a
+ *		binary tree and returns a pointer to it.
  * @parent: The binary tree.
  * @value: The value of the binary tree.
  * Return: A pointer to the binary tree.
