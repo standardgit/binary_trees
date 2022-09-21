@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "binary_trees.h"
+
 /**
  * *binary_tree_insert_right - This function takes a
  *		binary tree and returns a pointer to it.
@@ -26,14 +27,14 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 
     if (parent->right != NULL)
     {
-        formal_right_node = parent->right;
-        parent->right = new_node;
-        new_node->right = formal_right_node;
-    }
-    else
-    {
-        parent->right = new_node;
-    }
-
-    return (new_node);
+       formal_right_node = parent->right;
+       parent->right = new_node;
+       new_node->right = formal_right_node;
+   }
+   else
+   {
+     parent->right = new_node;
+   }
+    
+   return (new_node);
 }
