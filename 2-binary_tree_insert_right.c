@@ -30,6 +30,7 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 		formal_right_node = parent->right;
 		parent->right = new_node;
 		new_node->right = formal_right_node;
+		formal_right_node->parent = new_node;
 	}
 
 	parent->right = new_node;
