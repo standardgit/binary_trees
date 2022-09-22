@@ -5,7 +5,7 @@
  * *binary_tree_delete - This function takes a
  *		binary and delete it.
  * @tree: The binary tree.
- * 
+ *
  * Return: Nothing.
  */
 
